@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+temp/
+*.cache
+.cache/
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Model and training artifacts
+*.pt
+*.pth
+*.safetensors
+optimizer.pt
+scheduler.pt
+rng_state.pth
+trainer_state.json
+adapter_model.safetensors
+adapter_config.json
+
+# Checkpoints and saved models
+checkpoint-*/
+checkpoint*/
+saved_model_qwen2vl/
+offload_directory/
+
+# Large datasets / outputs (local dataset directories present in workspace)
+dataset_blood_group/
+krishna111809*/
+incorrect_predictions/
+
+# Python cache/extras in backend
+backend/__pycache__/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
